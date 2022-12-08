@@ -1,0 +1,690 @@
+[
+    {
+        "name": "ADMIN",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+            {
+                "name": "BLITZCRANK",
+                "numero": 4
+            },
+            {
+                "name": "CAMILLE",
+                "numero": 5
+            },
+            {
+                "name": "LEBLANC",
+                "numero": 17
+            },
+            {
+                "name": "SORAKA",
+                "numero": 38
+            }
+        ]
+    },
+    {
+        "name": "ANIMA_SQUAD",
+        "stages": [
+            3,
+            5,
+            7
+        ],
+        "champions": [
+            {
+                "name": "JINX",
+                "numero": 14
+            },
+            {
+                "name": "MISSFORTUNE",
+                "numero": 23
+            },
+            {
+                "name": "NASUS",
+                "numero": 25
+            },
+            {
+                "name": "RIVEN",
+                "numero": 31
+            },
+            {
+                "name": "SYLAS",
+                "numero": 39
+            },
+            {
+                "name": "VAYNE",
+                "numero": 43
+            }
+        ]
+    },
+    {
+        "name": "CIVILIAN",
+        "stages": [
+            1,
+            2,
+            3
+        ],
+        "champions": [
+            {
+                "name": "GALIO",
+                "numero": 10
+            },
+            {
+                "name": "JANNA",
+                "numero": 12
+            },
+            {
+                "name": "SIVIR",
+                "numero": 36
+            }
+        ]
+    },
+    {
+        "name": "GADGETEEN",
+        "stages": [
+            3,
+            5
+        ],
+        "champions": [
+            {
+                "name": "ANNIE",
+                "numero": 1
+            },
+            {
+                "name": "LULU",
+                "numero": 20
+            },
+            {
+                "name": "NUNU",
+                "numero": 27
+            },
+            {
+                "name": "POPPY",
+                "numero": 28
+            },
+            {
+                "name": "ZOE",
+                "numero": 50
+            }
+        ]
+    },
+    {
+        "name": "LASERCORPS",
+        "stages": [
+            3,
+            6,
+            9
+        ],
+        "champions": [
+            {
+                "name": "ASHE",
+                "numero": 3
+            },
+            {
+                "name": "MORDEKAISER",
+                "numero": 24
+            },
+            {
+                "name": "RENEKTON",
+                "numero": 30
+            },
+            {
+                "name": "SEJUANI",
+                "numero": 33
+            },
+            {
+                "name": "SENNA",
+                "numero": 34
+            },
+            {
+                "name": "YASUO",
+                "numero": 47
+            },
+            {
+                "name": "ZED",
+                "numero": 49
+            }
+        ]
+    },
+    {
+        "name": "MECHA",
+        "stages": [
+            3,
+            5
+        ],
+        "champions": [
+            {
+                "name": "DRAVEN",
+                "numero": 6
+            },
+            {
+                "name": "JAX",
+                "numero": 13
+            },
+            {
+                "name": "LEONA",
+                "numero": 19
+            },
+            {
+                "name": "SETT",
+                "numero": 35
+            },
+            {
+                "name": "WUKONG",
+                "numero": 46
+            }
+        ]
+    },
+    {
+        "name": "OXFORCE",
+        "stages": [
+            2,
+            4,
+            6,
+            8
+        ],
+        "champions": [
+            {
+                "name": "ALISTAR",
+                "numero": 0
+            },
+            {
+                "name": "ANNIE",
+                "numero": 1
+            },
+            {
+                "name": "APHELIOS",
+                "numero": 2
+            },
+            {
+                "name": "FIORA",
+                "numero": 9
+            },
+            {
+                "name": "TALON",
+                "numero": 42
+            },
+            {
+                "name": "VIEGO",
+                "numero": 45
+            }
+        ]
+    },
+    {
+        "name": "STAR_GUARDIAN",
+        "stages": [
+            3,
+            5,
+            7,
+            9
+        ],
+        "champions": [
+            {
+                "name": "EKKO",
+                "numero": 7
+            },
+            {
+                "name": "KAISA",
+                "numero": 15
+            },
+            {
+                "name": "LUX",
+                "numero": 21
+            },
+            {
+                "name": "NILAH",
+                "numero": 26
+            },
+            {
+                "name": "RELL",
+                "numero": 29
+            },
+            {
+                "name": "SYNDRA",
+                "numero": 40
+            },
+            {
+                "name": "TALIYAH",
+                "numero": 41
+            },
+            {
+                "name": "YUUMI",
+                "numero": 48
+            }
+        ]
+    },
+    {
+        "name": "SUPERS",
+        "stages": [
+            3
+        ],
+        "champions": [
+            {
+                "name": "GANGPLANK",
+                "numero": 11
+            },
+            {
+                "name": "LEESIN",
+                "numero": 18
+            },
+            {
+                "name": "MALPHITE",
+                "numero": 22
+            }
+        ]
+    },
+    {
+        "name": "UNDERGROUND",
+        "stages": [
+            3,
+            5
+        ],
+        "champions": [
+            {
+                "name": "EZREAL",
+                "numero": 8
+            },
+            {
+                "name": "KAYLE",
+                "numero": 16
+            },
+            {
+                "name": "SAMIRA",
+                "numero": 32
+            },
+            {
+                "name": "SONA",
+                "numero": 37
+            },
+            {
+                "name": "VI",
+                "numero": 44
+            }
+        ]
+    },
+    {
+        "name": "ACE",
+        "stages": [
+            1,
+            4
+        ],
+        "champions": [
+            {
+                "name": "DRAVEN",
+                "numero": 6
+            },
+            {
+                "name": "MISSFORTUNE",
+                "numero": 23
+            },
+            {
+                "name": "MORDEKAISER",
+                "numero": 24
+            },
+            {
+                "name": "SAMIRA",
+                "numero": 32
+            }
+        ]
+    },
+    {
+        "name": "AEGIS",
+        "stages": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "champions": [
+            {
+                "name": "ALISTAR",
+                "numero": 0
+            },
+            {
+                "name": "EKKO",
+                "numero": 7
+            },
+            {
+                "name": "LEONA",
+                "numero": 19
+            },
+            {
+                "name": "VI",
+                "numero": 44
+            }
+        ]
+    },
+    {
+        "name": "BRAWLER",
+        "stages": [
+            2,
+            4,
+            6,
+            8
+        ],
+        "champions": [
+            {
+                "name": "BLITZCRANK",
+                "numero": 4
+            },
+            {
+                "name": "JAX",
+                "numero": 13
+            },
+            {
+                "name": "LEESIN",
+                "numero": 18
+            },
+            {
+                "name": "RENEKTON",
+                "numero": 30
+            },
+            {
+                "name": "RIVEN",
+                "numero": 31
+            },
+            {
+                "name": "SEJUANI",
+                "numero": 33
+            },
+            {
+                "name": "VI",
+                "numero": 44
+            }
+        ]
+    },
+    {
+        "name": "DEFENDER",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+            {
+                "name": "POPPY",
+                "numero": 28
+            },
+            {
+                "name": "RELL",
+                "numero": 29
+            },
+            {
+                "name": "RIVEN",
+                "numero": 31
+            },
+            {
+                "name": "SETT",
+                "numero": 35
+            },
+            {
+                "name": "WUKONG",
+                "numero": 46
+            }
+        ]
+    },
+    {
+        "name": "DUELIST",
+        "stages": [
+            2,
+            4,
+            6,
+            8
+        ],
+        "champions": [
+            {
+                "name": "FIORA",
+                "numero": 9
+            },
+            {
+                "name": "GANGPLANK",
+                "numero": 11
+            },
+            {
+                "name": "KAYLE",
+                "numero": 16
+            },
+            {
+                "name": "NILAH",
+                "numero": 26
+            },
+            {
+                "name": "VAYNE",
+                "numero": 43
+            },
+            {
+                "name": "YASUO",
+                "numero": 47
+            },
+            {
+                "name": "ZED",
+                "numero": 49
+            }
+        ]
+    },
+    {
+        "name": "HACKER",
+        "stages": [
+            2,
+            3,
+            4
+        ],
+        "champions": [
+            {
+                "name": "LEBLANC",
+                "numero": 17
+            },
+            {
+                "name": "ZED",
+                "numero": 49
+            },
+            {
+                "name": "ZOE",
+                "numero": 50
+            }
+        ]
+    },
+    {
+        "name": "HEART",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+            {
+                "name": "LEESIN",
+                "numero": 18
+            },
+            {
+                "name": "LULU",
+                "numero": 20
+            },
+            {
+                "name": "SONA",
+                "numero": 37
+            },
+            {
+                "name": "SORAKA",
+                "numero": 38
+            },
+            {
+                "name": "SYNDRA",
+                "numero": 40
+            },
+            {
+                "name": "YUUMI",
+                "numero": 48
+            }
+        ]
+    },
+    {
+        "name": "MASCOT",
+        "stages": [
+            2,
+            4,
+            6,
+            8
+        ],
+        "champions": [
+            {
+                "name": "ALISTAR",
+                "numero": 0
+            },
+            {
+                "name": "GALIO",
+                "numero": 10
+            },
+            {
+                "name": "MALPHITE",
+                "numero": 22
+            },
+            {
+                "name": "NASUS",
+                "numero": 25
+            },
+            {
+                "name": "NUNU",
+                "numero": 27
+            },
+            {
+                "name": "YUUMI",
+                "numero": 48
+            }
+        ]
+    },
+    {
+        "name": "PRANKSTER",
+        "stages": [
+            2,
+            3
+        ],
+        "champions": [
+            {
+                "name": "EKKO",
+                "numero": 7
+            },
+            {
+                "name": "JINX",
+                "numero": 14
+            },
+            {
+                "name": "ZOE",
+                "numero": 50
+            }
+        ]
+    },
+    {
+        "name": "RECON",
+        "stages": [
+            2,
+            3,
+            4
+        ],
+        "champions": [
+            {
+                "name": "ASHE",
+                "numero": 3
+            },
+            {
+                "name": "EZREAL",
+                "numero": 8
+            },
+            {
+                "name": "KAISA",
+                "numero": 15
+            },
+            {
+                "name": "VAYNE",
+                "numero": 43
+            }
+        ]
+    },
+    {
+        "name": "RENEGADE",
+        "stages": [
+            3,
+            6
+        ],
+        "champions": [
+            {
+                "name": "CAMILLE",
+                "numero": 5
+            },
+            {
+                "name": "LEONA",
+                "numero": 19
+            },
+            {
+                "name": "SYLAS",
+                "numero": 39
+            },
+            {
+                "name": "TALON",
+                "numero": 42
+            },
+            {
+                "name": "VIEGO",
+                "numero": 45
+            }
+        ]
+    },
+    {
+        "name": "SPELLSLINGER",
+        "stages": [
+            2,
+            4,
+            6,
+            8
+        ],
+        "champions": [
+            {
+                "name": "ANNIE",
+                "numero": 1
+            },
+            {
+                "name": "LEBLANC",
+                "numero": 17
+            },
+            {
+                "name": "LUX",
+                "numero": 21
+            },
+            {
+                "name": "SONA",
+                "numero": 37
+            },
+            {
+                "name": "TALIYAH",
+                "numero": 41
+            }
+        ]
+    },
+    {
+        "name": "SURESHOT",
+        "stages": [
+            2,
+            4
+        ],
+        "champions": [
+            {
+                "name": "APHELIOS",
+                "numero": 2
+            },
+            {
+                "name": "SAMIRA",
+                "numero": 32
+            },
+            {
+                "name": "SENNA",
+                "numero": 34
+            },
+            {
+                "name": "SIVIR",
+                "numero": 36
+            }
+        ]
+    }
+]
