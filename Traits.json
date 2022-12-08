@@ -7,22 +7,10 @@
             6
         ],
         "champions": [
-            {
-                "name": "BLITZCRANK",
-                "numero": 4
-            },
-            {
-                "name": "CAMILLE",
-                "numero": 5
-            },
-            {
-                "name": "LEBLANC",
-                "numero": 17
-            },
-            {
-                "name": "SORAKA",
-                "numero": 38
-            }
+            4,
+            5,
+            17,
+            38
         ]
     },
     {
@@ -33,30 +21,12 @@
             7
         ],
         "champions": [
-            {
-                "name": "JINX",
-                "numero": 14
-            },
-            {
-                "name": "MISSFORTUNE",
-                "numero": 23
-            },
-            {
-                "name": "NASUS",
-                "numero": 25
-            },
-            {
-                "name": "RIVEN",
-                "numero": 31
-            },
-            {
-                "name": "SYLAS",
-                "numero": 39
-            },
-            {
-                "name": "VAYNE",
-                "numero": 43
-            }
+            14,
+            23,
+            25,
+            31,
+            39,
+            43
         ]
     },
     {
@@ -67,18 +37,9 @@
             3
         ],
         "champions": [
-            {
-                "name": "GALIO",
-                "numero": 10
-            },
-            {
-                "name": "JANNA",
-                "numero": 12
-            },
-            {
-                "name": "SIVIR",
-                "numero": 36
-            }
+            10,
+            12,
+            36
         ]
     },
     {
@@ -88,26 +49,11 @@
             5
         ],
         "champions": [
-            {
-                "name": "ANNIE",
-                "numero": 1
-            },
-            {
-                "name": "LULU",
-                "numero": 20
-            },
-            {
-                "name": "NUNU",
-                "numero": 27
-            },
-            {
-                "name": "POPPY",
-                "numero": 28
-            },
-            {
-                "name": "ZOE",
-                "numero": 50
-            }
+            1,
+            20,
+            27,
+            28,
+            50
         ]
     },
     {
@@ -118,34 +64,13 @@
             9
         ],
         "champions": [
-            {
-                "name": "ASHE",
-                "numero": 3
-            },
-            {
-                "name": "MORDEKAISER",
-                "numero": 24
-            },
-            {
-                "name": "RENEKTON",
-                "numero": 30
-            },
-            {
-                "name": "SEJUANI",
-                "numero": 33
-            },
-            {
-                "name": "SENNA",
-                "numero": 34
-            },
-            {
-                "name": "YASUO",
-                "numero": 47
-            },
-            {
-                "name": "ZED",
-                "numero": 49
-            }
+            3,
+            24,
+            30,
+            33,
+            34,
+            47,
+            49
         ]
     },
     {
@@ -155,26 +80,11 @@
             5
         ],
         "champions": [
-            {
-                "name": "DRAVEN",
-                "numero": 6
-            },
-            {
-                "name": "JAX",
-                "numero": 13
-            },
-            {
-                "name": "LEONA",
-                "numero": 19
-            },
-            {
-                "name": "SETT",
-                "numero": 35
-            },
-            {
-                "name": "WUKONG",
-                "numero": 46
-            }
+            6,
+            13,
+            19,
+            35,
+            46
         ]
     },
     {
@@ -186,30 +96,12 @@
             8
         ],
         "champions": [
-            {
-                "name": "ALISTAR",
-                "numero": 0
-            },
-            {
-                "name": "ANNIE",
-                "numero": 1
-            },
-            {
-                "name": "APHELIOS",
-                "numero": 2
-            },
-            {
-                "name": "FIORA",
-                "numero": 9
-            },
-            {
-                "name": "TALON",
-                "numero": 42
-            },
-            {
-                "name": "VIEGO",
-                "numero": 45
-            }
+            0,
+            1,
+            2,
+            9,
+            42,
+            45
         ]
     },
     {
@@ -221,38 +113,14 @@
             9
         ],
         "champions": [
-            {
-                "name": "EKKO",
-                "numero": 7
-            },
-            {
-                "name": "KAISA",
-                "numero": 15
-            },
-            {
-                "name": "LUX",
-                "numero": 21
-            },
-            {
-                "name": "NILAH",
-                "numero": 26
-            },
-            {
-                "name": "RELL",
-                "numero": 29
-            },
-            {
-                "name": "SYNDRA",
-                "numero": 40
-            },
-            {
-                "name": "TALIYAH",
-                "numero": 41
-            },
-            {
-                "name": "YUUMI",
-                "numero": 48
-            }
+            7,
+            15,
+            21,
+            26,
+            29,
+            40,
+            41,
+            48
         ]
     },
     {
@@ -261,18 +129,9 @@
             3
         ],
         "champions": [
-            {
-                "name": "GANGPLANK",
-                "numero": 11
-            },
-            {
-                "name": "LEESIN",
-                "numero": 18
-            },
-            {
-                "name": "MALPHITE",
-                "numero": 22
-            }
+            11,
+            18,
+            22
         ]
     },
     {
@@ -282,26 +141,11 @@
             5
         ],
         "champions": [
-            {
-                "name": "EZREAL",
-                "numero": 8
-            },
-            {
-                "name": "KAYLE",
-                "numero": 16
-            },
-            {
-                "name": "SAMIRA",
-                "numero": 32
-            },
-            {
-                "name": "SONA",
-                "numero": 37
-            },
-            {
-                "name": "VI",
-                "numero": 44
-            }
+            8,
+            16,
+            32,
+            37,
+            44
         ]
     },
     {
@@ -311,22 +155,10 @@
             4
         ],
         "champions": [
-            {
-                "name": "DRAVEN",
-                "numero": 6
-            },
-            {
-                "name": "MISSFORTUNE",
-                "numero": 23
-            },
-            {
-                "name": "MORDEKAISER",
-                "numero": 24
-            },
-            {
-                "name": "SAMIRA",
-                "numero": 32
-            }
+            6,
+            23,
+            24,
+            32
         ]
     },
     {
@@ -338,22 +170,10 @@
             5
         ],
         "champions": [
-            {
-                "name": "ALISTAR",
-                "numero": 0
-            },
-            {
-                "name": "EKKO",
-                "numero": 7
-            },
-            {
-                "name": "LEONA",
-                "numero": 19
-            },
-            {
-                "name": "VI",
-                "numero": 44
-            }
+            0,
+            7,
+            19,
+            44
         ]
     },
     {
@@ -365,34 +185,13 @@
             8
         ],
         "champions": [
-            {
-                "name": "BLITZCRANK",
-                "numero": 4
-            },
-            {
-                "name": "JAX",
-                "numero": 13
-            },
-            {
-                "name": "LEESIN",
-                "numero": 18
-            },
-            {
-                "name": "RENEKTON",
-                "numero": 30
-            },
-            {
-                "name": "RIVEN",
-                "numero": 31
-            },
-            {
-                "name": "SEJUANI",
-                "numero": 33
-            },
-            {
-                "name": "VI",
-                "numero": 44
-            }
+            4,
+            13,
+            18,
+            30,
+            31,
+            33,
+            44
         ]
     },
     {
@@ -403,26 +202,11 @@
             6
         ],
         "champions": [
-            {
-                "name": "POPPY",
-                "numero": 28
-            },
-            {
-                "name": "RELL",
-                "numero": 29
-            },
-            {
-                "name": "RIVEN",
-                "numero": 31
-            },
-            {
-                "name": "SETT",
-                "numero": 35
-            },
-            {
-                "name": "WUKONG",
-                "numero": 46
-            }
+            28,
+            29,
+            31,
+            35,
+            46
         ]
     },
     {
@@ -434,34 +218,13 @@
             8
         ],
         "champions": [
-            {
-                "name": "FIORA",
-                "numero": 9
-            },
-            {
-                "name": "GANGPLANK",
-                "numero": 11
-            },
-            {
-                "name": "KAYLE",
-                "numero": 16
-            },
-            {
-                "name": "NILAH",
-                "numero": 26
-            },
-            {
-                "name": "VAYNE",
-                "numero": 43
-            },
-            {
-                "name": "YASUO",
-                "numero": 47
-            },
-            {
-                "name": "ZED",
-                "numero": 49
-            }
+            9,
+            11,
+            16,
+            26,
+            43,
+            47,
+            49
         ]
     },
     {
@@ -472,18 +235,9 @@
             4
         ],
         "champions": [
-            {
-                "name": "LEBLANC",
-                "numero": 17
-            },
-            {
-                "name": "ZED",
-                "numero": 49
-            },
-            {
-                "name": "ZOE",
-                "numero": 50
-            }
+            17,
+            49,
+            50
         ]
     },
     {
@@ -494,30 +248,12 @@
             6
         ],
         "champions": [
-            {
-                "name": "LEESIN",
-                "numero": 18
-            },
-            {
-                "name": "LULU",
-                "numero": 20
-            },
-            {
-                "name": "SONA",
-                "numero": 37
-            },
-            {
-                "name": "SORAKA",
-                "numero": 38
-            },
-            {
-                "name": "SYNDRA",
-                "numero": 40
-            },
-            {
-                "name": "YUUMI",
-                "numero": 48
-            }
+            18,
+            20,
+            37,
+            38,
+            40,
+            48
         ]
     },
     {
@@ -529,30 +265,12 @@
             8
         ],
         "champions": [
-            {
-                "name": "ALISTAR",
-                "numero": 0
-            },
-            {
-                "name": "GALIO",
-                "numero": 10
-            },
-            {
-                "name": "MALPHITE",
-                "numero": 22
-            },
-            {
-                "name": "NASUS",
-                "numero": 25
-            },
-            {
-                "name": "NUNU",
-                "numero": 27
-            },
-            {
-                "name": "YUUMI",
-                "numero": 48
-            }
+            0,
+            10,
+            22,
+            25,
+            27,
+            48
         ]
     },
     {
@@ -562,18 +280,9 @@
             3
         ],
         "champions": [
-            {
-                "name": "EKKO",
-                "numero": 7
-            },
-            {
-                "name": "JINX",
-                "numero": 14
-            },
-            {
-                "name": "ZOE",
-                "numero": 50
-            }
+            7,
+            14,
+            50
         ]
     },
     {
@@ -584,22 +293,10 @@
             4
         ],
         "champions": [
-            {
-                "name": "ASHE",
-                "numero": 3
-            },
-            {
-                "name": "EZREAL",
-                "numero": 8
-            },
-            {
-                "name": "KAISA",
-                "numero": 15
-            },
-            {
-                "name": "VAYNE",
-                "numero": 43
-            }
+            3,
+            8,
+            15,
+            43
         ]
     },
     {
@@ -609,26 +306,11 @@
             6
         ],
         "champions": [
-            {
-                "name": "CAMILLE",
-                "numero": 5
-            },
-            {
-                "name": "LEONA",
-                "numero": 19
-            },
-            {
-                "name": "SYLAS",
-                "numero": 39
-            },
-            {
-                "name": "TALON",
-                "numero": 42
-            },
-            {
-                "name": "VIEGO",
-                "numero": 45
-            }
+            5,
+            19,
+            39,
+            42,
+            45
         ]
     },
     {
@@ -640,26 +322,11 @@
             8
         ],
         "champions": [
-            {
-                "name": "ANNIE",
-                "numero": 1
-            },
-            {
-                "name": "LEBLANC",
-                "numero": 17
-            },
-            {
-                "name": "LUX",
-                "numero": 21
-            },
-            {
-                "name": "SONA",
-                "numero": 37
-            },
-            {
-                "name": "TALIYAH",
-                "numero": 41
-            }
+            1,
+            17,
+            21,
+            37,
+            41
         ]
     },
     {
@@ -669,22 +336,10 @@
             4
         ],
         "champions": [
-            {
-                "name": "APHELIOS",
-                "numero": 2
-            },
-            {
-                "name": "SAMIRA",
-                "numero": 32
-            },
-            {
-                "name": "SENNA",
-                "numero": 34
-            },
-            {
-                "name": "SIVIR",
-                "numero": 36
-            }
+            2,
+            32,
+            34,
+            36
         ]
     }
 ]

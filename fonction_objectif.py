@@ -34,6 +34,8 @@ class optimisation(object):
 
             Prend en entrée un set d'identifiants de champions [0,50]
             ex: [12,15,1,43]
+
+            Renvoie un entier positif
         """
         champions_by_trait = dict()
         #Construction d'un dictionnaire contenant le nombre de champions par trait
@@ -41,6 +43,48 @@ class optimisation(object):
         for champion in composition:
             for trait in self.champions[champion]['traits']:
                 champions_by_trait[trait] = champions_by_trait.get(trait,0) + 1
+
+
+        #Le trait ACE ne peut avoir que 1 ou 4 persos
+        #S'il contient entre 2 ou 3 persos il s'annule
+        #Ca pourrait presque être une contrainte, ça m'étonnerait qu'une solution optimale utilise un trait mort 
+        if champions_by_trait.get(10,0) > 1 and champions_by_trait.get(10,0) < 4:
+            champions_by_trait.pop(10)
+        
+
+        nombre_traits_valides = 0
+        #Compter le nombre d'étapes traits valides
+        #Pour chaque trait, si un stage du trait est passé on ajoute 1
+        for trait,quantite in champions_by_trait.items():
+            for stage in self.traits[trait]['stages']:
+                if quantite >= stage:
+                    nombre_traits_valides += 1
+                else:
+                    continue
+        return nombre_traits_valides
+
+    def fonction_objectif_alt(self,composition: set[Champion])->int:
+        """
+            Implémentation alternative de la fonction objectif
+            Laquelle est la plus rapide me direz-vous?
+            J'en sais rien
+
+            Renvoie le nombre de stages de traits activés
+
+            Prend en entrée un set d'identifiants de champions [0,50]
+            ex: [12,15,1,43]
+
+            Renvoie un entier positif
+        """
+        champions_by_trait = dict()
+        #Construction d'un dictionnaire contenant le nombre de champions par trait
+        #Pour chaque champion on rajoute 1 au compteur de chacun de ses traits
+        for index_trait,trait in enumerate(traits):
+            print(trait)
+            t:list = self.intersection(trait['champions'],composition)
+            nb_champion_trait = len(t)
+            if(nb_champion_trait > 0):
+                champions_by_trait[index_trait] = nb_champion_trait
 
 
         #Le trait ACE ne peut avoir que 1 ou 4 persos
@@ -60,6 +104,14 @@ class optimisation(object):
                     continue
         return nombre_traits_valides
 
+    def intersection(self,lst1, lst2)->list:
+ 
+        # Use of hybrid method
+        temp = set(lst2)
+        lst3 = [value for value in lst1 if value in temp]
+        return lst3
+
+
 
 
 # importing the module
@@ -67,12 +119,11 @@ import json
  
 # Opening JSON file
 with open('Traits.json') as traits_file, open('Champions.json') as champions_file:
-    traits_root = json.load(traits_file)
-    champions_root = json.load(champions_file)
+
 
     #Listes des traits et des champions
-    traits = traits_root['traits']
-    champions = champions_root['champions']
+    traits = json.load(traits_file)
+    champions = json.load(champions_file)
 
     opti = optimisation(traits,champions)
 
@@ -85,6 +136,10 @@ with open('Traits.json') as traits_file, open('Champions.json') as champions_fil
     assert(opti.fonction_objectif(composition8) == 8)
     assert(opti.fonction_objectif(composition7_2) == 7)
 
+    assert(opti.fonction_objectif_alt(composition7) == 7)
+    assert(opti.fonction_objectif_alt(composition8) == 8)
+    assert(opti.fonction_objectif_alt(composition7_2) == 7)
+
     #Print the data of dictionary
     #print(traits)
     #print('')
@@ -94,12 +149,22 @@ with open('Traits.json') as traits_file, open('Champions.json') as champions_fil
 
     from docplex.mp.model import Model
     m = Model(name='list_integers')
+
+    #Liste d'integers uniques
+    #Est-ce possible d'optimiser pour pas qu'il génère une anagramme d'une composition déjà générée au préalable ?
+    #si [1,2] a été fait, ça sert à rien de faire [2,1] ce sera le même résultat de la fonction objectif, du moins ça doit l'être
     composition = m.integer_var_dict(name="composition", lb=0,ub=50,keys=taille_composition)
-    m.add_constraint()
+    
+    #On a pas le droit de mettre une fonction python, juste des combinaisons linéaires, ce serait trop beau si ça marchait
+    #Si cette ligne marchait ce serait fini ptdr
+    #Peut-être que ce serait plus simple avec un réseau de neurones mdr
     m.set_objective("max", opti.fonction_objectif(composition))
-    m.set_multi_objective()
+
+    #Affiche les informations de la recherche
     m.print_information()
+    #Lance la recherche
     m.solve()
+    #Affiche le résultat trouvé
     m.print_solution()
 
     
