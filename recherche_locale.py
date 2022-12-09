@@ -20,6 +20,7 @@ class TFTModel:
     def eval_solution(self, solution=None):
         if solution is None:
             solution = self.solution
+            
         count_each_traits = {}
         for id_champion in solution:
             champion = self.champions[id_champion]
@@ -79,15 +80,63 @@ class TFTModel:
         while improved:
             best_sol, best_value, improved = self.swap_BI()
             self.solution = best_sol
-            print("new best value", best_value)
+            #print("new best value", best_value)
+
+    def get_readable_solution(self):
+        liste_champions_name = sorted(list(map(lambda x: self.champions[x]['name'],self.solution)))
+
+        count_each_traits = {}
+        for id_champion in self.solution:
+            champion = self.champions[id_champion]
+            for trait in champion["traits"]:
+                count_each_traits[trait] = count_each_traits.get(trait, 0) + 1
+
+
+        count_each_traits = list(map(lambda x: (self.traits[x[0]]['name'],x[1]),count_each_traits.items()))
+
+        count_each_traits = sorted(count_each_traits, key=lambda d: (d[1],d[0]),reverse=True) 
+        
+        return (tuple(liste_champions_name),tuple(count_each_traits),self.eval_solution())
+
+    def display_readable_solution(self):
+        a = self.get_readable_solution()
+        print(f"Champions: {a[0]}")
+        print(f"Traits: {a[1]}")
+        print(f"Value: {a[2]}")
+
+
+#model = TFTModel(8)
+#print("solution", model.solution)
+#print("value", model.eval_solution())
+#model.display_readable_solution()
+#
+#model.recherche_local()
+#print("solution", model.solution)
+#model.display_readable_solution()
 
 
 model = TFTModel(8)
-print("solution", model.solution)
-print("value", model.eval_solution())
+solutions = []
+sample_size = 1000
+for i in range(sample_size):
+    if i % (sample_size/10) == 0:
+        print(f"{(i/sample_size)*100}%")
+    model.init_solution()
+    model.recherche_local()
 
-model.recherche_local()
-print("solution", model.solution)
-print("value", model.eval_solution())
+    solutions.append(model.get_readable_solution())
+
+solutions = list(set(solutions))
+solutions = sorted(solutions,key=lambda x: x[2],reverse=True)
+
+i=0
+while solutions[i][2] in (solutions[0][2], solutions[0][2] - 1):
+    print(f"Champions: {solutions[i][0]}")
+    print(f"Traits: {solutions[i][1]}")
+    print(f"Value: {solutions[i][2]}")
+    i += 1
+    
+
 # actuellement c'est un peu naze mais on voit qu'en le lançnant en boucle des fois ça amrche mieux que d'autres
 # on tombe trop rapidement dans des extremums locaux, faut trouver un opératuer plus violent que le swap (ex swap2)
+
