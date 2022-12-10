@@ -1,0 +1,9 @@
+Champions: ('DRAVEN', 'JANNA', 'SETT', 'WUKONG')
+Traits: (('MECHA', 3), ('DEFENDER', 2), ('CIVILIAN', 1), ('ACE', 1))
+
+Champions: ('RENEKTON', 'SEJUANI', 'SENNA', 'SIVIR')
+Traits: (('LASERCORPS', 3), ('SURESHOT', 2), ('BRAWLER', 2), ('CIVILIAN', 1))
+
+Champions: ('JANNA', 'MORDEKAISER', 'RENEKTON', 'SEJUANI')
+Traits: (('LASERCORPS', 3), ('BRAWLER', 2), ('CIVILIAN', 1), ('ACE', 1))
+

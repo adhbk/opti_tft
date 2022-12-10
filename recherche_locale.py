@@ -17,7 +17,7 @@ class TFTModel:
     def init_solution(self):
         self.solution = random.sample(list(range(len(self.champions))), self.taille_composition)
 
-    def eval_solution(self, solution=None):
+    def eval_solution_(self, solution=None):
         if solution is None:
             solution = self.solution
 
@@ -41,7 +41,7 @@ class TFTModel:
     #Implémentation alternative en minimisation
     #Minimiser le nombre de traits morts au lieu de maximiser les traits utilisés
     #Certains champions ont 3 traits et sont priorisés par la première méthode (Alistar/Vi/Samira qui sont dans toutes les meilleurs solutions quasiment)
-    def eval_solution_minimize(self,solution=None):
+    def eval_solution(self,solution=None):
         if solution is None:
             solution = self.solution
 
@@ -57,8 +57,14 @@ class TFTModel:
         objectif = ace_canceled
         for id_trait, count in count_each_traits.items():
             trait = self.traits[id_trait]
-            if trait["stages"][0] > count:
-                objectif += count
+            last_stage = 0
+            for stage in trait["stages"]:
+                if count < stage:
+                    objectif += count - last_stage
+                    last_stage = 0
+                    break
+                last_stage = stage
+            
         
         return objectif
 
@@ -73,7 +79,7 @@ class TFTModel:
             for idx, id_champion_sol in enumerate(self.solution):
                 sol_modif[idx] = id_champion
                 new_value = self.eval_solution(sol_modif)
-                if new_value > best_value:
+                if new_value < best_value:
                     # print(f"improved from {best_value} to {new_value}")
                     best_value = new_value
                     best_sol = sol_modif.copy()
@@ -90,7 +96,7 @@ class TFTModel:
         best_value = self.eval_solution()
         for id_champion in self.id_champions:
             new_sol, new_value = self.swap_champion_BI(id_champion)
-            if new_value > best_value:
+            if new_value < best_value:
                 # print(f"improved from {best_value} to {new_value}")
                 best_value = new_value
                 best_sol = new_sol.copy()
@@ -139,27 +145,28 @@ class TFTModel:
 #print("solution", model.solution)
 #model.display_readable_solution()
 
+#Genère toutes les compos "parfaites" et les écrit dans un fichier
+for team_size in range(3,10):
+    model = TFTModel(team_size)
+    solutions = []
+    sample_size = 10000
+    for i in range(sample_size):
+        if i % (sample_size/10) == 0:
+            print(f"{(i/sample_size)*100}%")
+        model.init_solution()
+        model.recherche_local()
 
-model = TFTModel(8)
-solutions = []
-sample_size = 1000
-for i in range(sample_size):
-    if i % (sample_size/10) == 0:
-        print(f"{(i/sample_size)*100}%")
-    model.init_solution()
-    model.recherche_local()
+        solutions.append(model.get_readable_solution())
 
-    solutions.append(model.get_readable_solution())
+    solutions = list(set(solutions))
+    solutions = sorted(solutions,key=lambda x: x[2])
 
-solutions = list(set(solutions))
-solutions = sorted(solutions,key=lambda x: x[2],reverse=True)
-
-i=0
-while solutions[i][2] in (solutions[0][2], solutions[0][2] - 1):
-    print(f"Champions: {solutions[i][0]}")
-    print(f"Traits: {solutions[i][1]}")
-    print(f"Value: {solutions[i][2]}")
-    i += 1
+    i=0
+    with open(f'comps_{team_size}.txt','w') as compo_file:
+        while solutions[i][2] == (solutions[0][2]):
+            compo_file.write(f"Champions: {solutions[i][0]}\n")
+            compo_file.write(f"Traits: {solutions[i][1]}\n\n")
+            i += 1
     
 
 # actuellement c'est un peu naze mais on voit qu'en le lançnant en boucle des fois ça amrche mieux que d'autres

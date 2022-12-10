@@ -1,0 +1,165 @@
+Champions: ('ALISTAR', 'LEONA', 'MISSFORTUNE', 'NASUS', 'SETT', 'SYLAS', 'VIEGO', 'WUKONG')
+Traits: (('RENEGADE', 3), ('MECHA', 3), ('ANIMA_SQUAD', 3), ('OXFORCE', 2), ('MASCOT', 2), ('DEFENDER', 2), ('AEGIS', 2), ('ACE', 1))
+
+Champions: ('ANNIE', 'FIORA', 'GALIO', 'NILAH', 'NUNU', 'POPPY', 'RELL', 'TALIYAH')
+Traits: (('STAR_GUARDIAN', 3), ('GADGETEEN', 3), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('MASCOT', 2), ('DUELIST', 2), ('DEFENDER', 2), ('CIVILIAN', 1))
+
+Champions: ('ANNIE', 'APHELIOS', 'LULU', 'LUX', 'POPPY', 'RELL', 'SIVIR', 'SYNDRA')
+Traits: (('STAR_GUARDIAN', 3), ('GADGETEEN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('HEART', 2), ('DEFENDER', 2), ('CIVILIAN', 1))
+
+Champions: ('ANNIE', 'FIORA', 'JANNA', 'LULU', 'NILAH', 'NUNU', 'TALIYAH', 'YUUMI')
+Traits: (('STAR_GUARDIAN', 3), ('GADGETEEN', 3), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('MASCOT', 2), ('HEART', 2), ('DUELIST', 2), ('CIVILIAN', 1))
+
+Champions: ('ALISTAR', 'BLITZCRANK', 'CAMILLE', 'DRAVEN', 'GALIO', 'JAX', 'LEONA', 'TALON')
+Traits: (('RENEGADE', 3), ('MECHA', 3), ('OXFORCE', 2), ('MASCOT', 2), ('BRAWLER', 2), ('AEGIS', 2), ('ADMIN', 2), ('CIVILIAN', 1), ('ACE', 1))
+
+Champions: ('APHELIOS', 'ASHE', 'FIORA', 'KAISA', 'LUX', 'SENNA', 'TALIYAH', 'YASUO')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('RECON', 2), ('OXFORCE', 2), ('DUELIST', 2))
+
+Champions: ('JANNA', 'JAX', 'MORDEKAISER', 'SEJUANI', 'SENNA', 'SETT', 'SIVIR', 'WUKONG')
+Traits: (('MECHA', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('DEFENDER', 2), ('CIVILIAN', 2), ('BRAWLER', 2), ('ACE', 1))
+
+Champions: ('ASHE', 'KAISA', 'LEBLANC', 'LUX', 'SORAKA', 'SYNDRA', 'YASUO', 'ZED')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SPELLSLINGER', 2), ('RECON', 2), ('HEART', 2), ('HACKER', 2), ('DUELIST', 2), ('ADMIN', 2))
+
+Champions: ('ALISTAR', 'JAX', 'LEONA', 'NASUS', 'RIVEN', 'SETT', 'SYLAS', 'VIEGO')
+Traits: (('RENEGADE', 3), ('MECHA', 3), ('ANIMA_SQUAD', 3), ('OXFORCE', 2), ('MASCOT', 2), ('DEFENDER', 2), ('BRAWLER', 2), ('AEGIS', 2))
+
+Champions: ('APHELIOS', 'FIORA', 'LUX', 'NILAH', 'RENEKTON', 'SEJUANI', 'SENNA', 'TALIYAH')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('DUELIST', 2), ('BRAWLER', 2))
+
+Champions: ('JANNA', 'KAYLE', 'LUX', 'NILAH', 'SAMIRA', 'SIVIR', 'SONA', 'SYNDRA')
+Traits: (('UNDERGROUND', 3), ('STAR_GUARDIAN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('HEART', 2), ('DUELIST', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('ASHE', 'BLITZCRANK', 'KAISA', 'LEBLANC', 'LUX', 'NILAH', 'RENEKTON', 'ZED')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SPELLSLINGER', 2), ('RECON', 2), ('HACKER', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
+Champions: ('JANNA', 'LUX', 'MORDEKAISER', 'NILAH', 'SENNA', 'SIVIR', 'TALIYAH', 'YASUO')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('DUELIST', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('GALIO', 'KAYLE', 'NILAH', 'SAMIRA', 'SIVIR', 'SONA', 'TALIYAH', 'YUUMI')
+Traits: (('UNDERGROUND', 3), ('STAR_GUARDIAN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('MASCOT', 2), ('HEART', 2), ('DUELIST', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('GALIO', 'MORDEKAISER', 'NILAH', 'SENNA', 'SIVIR', 'SYNDRA', 'YASUO', 'YUUMI')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('MASCOT', 2), ('HEART', 2), ('DUELIST', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('BLITZCRANK', 'CAMILLE', 'MORDEKAISER', 'SEJUANI', 'SENNA', 'SIVIR', 'TALON', 'VIEGO')
+Traits: (('RENEGADE', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('OXFORCE', 2), ('BRAWLER', 2), ('ADMIN', 2), ('CIVILIAN', 1), ('ACE', 1))
+
+Champions: ('CAMILLE', 'JANNA', 'LUX', 'SORAKA', 'SYNDRA', 'TALIYAH', 'TALON', 'VIEGO')
+Traits: (('STAR_GUARDIAN', 3), ('RENEGADE', 3), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('HEART', 2), ('ADMIN', 2), ('CIVILIAN', 1))
+
+Champions: ('ASHE', 'JANNA', 'KAISA', 'LUX', 'MORDEKAISER', 'SENNA', 'SIVIR', 'TALIYAH')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('RECON', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('EZREAL', 'JANNA', 'KAISA', 'SAMIRA', 'SIVIR', 'SONA', 'SYNDRA', 'TALIYAH')
+Traits: (('UNDERGROUND', 3), ('STAR_GUARDIAN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('RECON', 2), ('HEART', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('ASHE', 'BLITZCRANK', 'KAISA', 'NILAH', 'RENEKTON', 'SORAKA', 'SYNDRA', 'YASUO')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('RECON', 2), ('HEART', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
+Champions: ('EZREAL', 'GALIO', 'KAISA', 'SAMIRA', 'SIVIR', 'SONA', 'TALIYAH', 'YUUMI')
+Traits: (('UNDERGROUND', 3), ('STAR_GUARDIAN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('RECON', 2), ('MASCOT', 2), ('HEART', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('BLITZCRANK', 'CAMILLE', 'MORDEKAISER', 'RENEKTON', 'SENNA', 'SIVIR', 'TALON', 'VIEGO')
+Traits: (('RENEGADE', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('OXFORCE', 2), ('BRAWLER', 2), ('ADMIN', 2), ('CIVILIAN', 1), ('ACE', 1))
+
+Champions: ('ASHE', 'EZREAL', 'KAYLE', 'LEBLANC', 'MORDEKAISER', 'SONA', 'SORAKA', 'ZED')
+Traits: (('UNDERGROUND', 3), ('LASERCORPS', 3), ('SPELLSLINGER', 2), ('RECON', 2), ('HEART', 2), ('HACKER', 2), ('DUELIST', 2), ('ADMIN', 2), ('ACE', 1))
+
+Champions: ('ASHE', 'BLITZCRANK', 'KAISA', 'NILAH', 'SEJUANI', 'SORAKA', 'SYNDRA', 'YASUO')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('RECON', 2), ('HEART', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
+Champions: ('ASHE', 'GALIO', 'KAISA', 'MORDEKAISER', 'SENNA', 'SIVIR', 'SYNDRA', 'YUUMI')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('RECON', 2), ('MASCOT', 2), ('HEART', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('ASHE', 'BLITZCRANK', 'KAISA', 'LEBLANC', 'NILAH', 'RENEKTON', 'TALIYAH', 'ZED')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SPELLSLINGER', 2), ('RECON', 2), ('HACKER', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
+Champions: ('ALISTAR', 'BLITZCRANK', 'CAMILLE', 'DRAVEN', 'GALIO', 'JAX', 'LEONA', 'VIEGO')
+Traits: (('RENEGADE', 3), ('MECHA', 3), ('OXFORCE', 2), ('MASCOT', 2), ('BRAWLER', 2), ('AEGIS', 2), ('ADMIN', 2), ('CIVILIAN', 1), ('ACE', 1))
+
+Champions: ('CAMILLE', 'GALIO', 'LUX', 'SORAKA', 'TALIYAH', 'TALON', 'VIEGO', 'YUUMI')
+Traits: (('STAR_GUARDIAN', 3), ('RENEGADE', 3), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('MASCOT', 2), ('HEART', 2), ('ADMIN', 2), ('CIVILIAN', 1))
+
+Champions: ('APHELIOS', 'FIORA', 'JAX', 'SEJUANI', 'SENNA', 'SETT', 'WUKONG', 'YASUO')
+Traits: (('MECHA', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('OXFORCE', 2), ('DUELIST', 2), ('DEFENDER', 2), ('BRAWLER', 2))
+
+Champions: ('APHELIOS', 'EZREAL', 'FIORA', 'KAISA', 'KAYLE', 'LUX', 'SAMIRA', 'TALIYAH')
+Traits: (('UNDERGROUND', 3), ('STAR_GUARDIAN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('RECON', 2), ('OXFORCE', 2), ('DUELIST', 2), ('ACE', 1))
+
+Champions: ('GALIO', 'KAYLE', 'LUX', 'NILAH', 'SAMIRA', 'SIVIR', 'SONA', 'YUUMI')
+Traits: (('UNDERGROUND', 3), ('STAR_GUARDIAN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('MASCOT', 2), ('HEART', 2), ('DUELIST', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('APHELIOS', 'FIORA', 'JAX', 'RENEKTON', 'SENNA', 'SETT', 'WUKONG', 'YASUO')
+Traits: (('MECHA', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('OXFORCE', 2), ('DUELIST', 2), ('DEFENDER', 2), ('BRAWLER', 2))
+
+Champions: ('ANNIE', 'FIORA', 'GALIO', 'LUX', 'NILAH', 'NUNU', 'POPPY', 'RELL')
+Traits: (('STAR_GUARDIAN', 3), ('GADGETEEN', 3), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('MASCOT', 2), ('DUELIST', 2), ('DEFENDER', 2), ('CIVILIAN', 1))
+
+Champions: ('ALISTAR', 'JAX', 'LEONA', 'NASUS', 'RIVEN', 'SETT', 'SYLAS', 'TALON')
+Traits: (('RENEGADE', 3), ('MECHA', 3), ('ANIMA_SQUAD', 3), ('OXFORCE', 2), ('MASCOT', 2), ('DEFENDER', 2), ('BRAWLER', 2), ('AEGIS', 2))
+
+Champions: ('BLITZCRANK', 'JAX', 'LUX', 'SETT', 'SORAKA', 'SYNDRA', 'TALIYAH', 'WUKONG')
+Traits: (('STAR_GUARDIAN', 3), ('MECHA', 3), ('SPELLSLINGER', 2), ('HEART', 2), ('DEFENDER', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
+Champions: ('EZREAL', 'JANNA', 'KAISA', 'LUX', 'SAMIRA', 'SIVIR', 'SONA', 'SYNDRA')
+Traits: (('UNDERGROUND', 3), ('STAR_GUARDIAN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('RECON', 2), ('HEART', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('JANNA', 'JAX', 'MORDEKAISER', 'RENEKTON', 'SENNA', 'SETT', 'SIVIR', 'WUKONG')
+Traits: (('MECHA', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('DEFENDER', 2), ('CIVILIAN', 2), ('BRAWLER', 2), ('ACE', 1))
+
+Champions: ('ANNIE', 'FIORA', 'GALIO', 'LULU', 'NILAH', 'NUNU', 'SYNDRA', 'TALIYAH')
+Traits: (('STAR_GUARDIAN', 3), ('GADGETEEN', 3), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('MASCOT', 2), ('HEART', 2), ('DUELIST', 2), ('CIVILIAN', 1))
+
+Champions: ('ANNIE', 'APHELIOS', 'LULU', 'POPPY', 'RELL', 'SIVIR', 'SYNDRA', 'TALIYAH')
+Traits: (('STAR_GUARDIAN', 3), ('GADGETEEN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('HEART', 2), ('DEFENDER', 2), ('CIVILIAN', 1))
+
+Champions: ('LEBLANC', 'NILAH', 'RENEKTON', 'SEJUANI', 'SORAKA', 'SYNDRA', 'TALIYAH', 'ZED')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SPELLSLINGER', 2), ('HEART', 2), ('HACKER', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
+Champions: ('ANNIE', 'FIORA', 'GALIO', 'LULU', 'LUX', 'NILAH', 'NUNU', 'SYNDRA')
+Traits: (('STAR_GUARDIAN', 3), ('GADGETEEN', 3), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('MASCOT', 2), ('HEART', 2), ('DUELIST', 2), ('CIVILIAN', 1))
+
+Champions: ('EZREAL', 'GALIO', 'KAISA', 'LUX', 'SAMIRA', 'SIVIR', 'SONA', 'YUUMI')
+Traits: (('UNDERGROUND', 3), ('STAR_GUARDIAN', 3), ('SURESHOT', 2), ('SPELLSLINGER', 2), ('RECON', 2), ('MASCOT', 2), ('HEART', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('LEBLANC', 'LUX', 'NILAH', 'RENEKTON', 'SEJUANI', 'SORAKA', 'SYNDRA', 'ZED')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SPELLSLINGER', 2), ('HEART', 2), ('HACKER', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
+Champions: ('BLITZCRANK', 'CAMILLE', 'JANNA', 'JAX', 'SETT', 'TALON', 'VIEGO', 'WUKONG')
+Traits: (('RENEGADE', 3), ('MECHA', 3), ('OXFORCE', 2), ('DEFENDER', 2), ('BRAWLER', 2), ('ADMIN', 2), ('CIVILIAN', 1))
+
+Champions: ('BLITZCRANK', 'LULU', 'MISSFORTUNE', 'NASUS', 'NUNU', 'POPPY', 'RIVEN', 'SORAKA')
+Traits: (('GADGETEEN', 3), ('ANIMA_SQUAD', 3), ('MASCOT', 2), ('HEART', 2), ('DEFENDER', 2), ('BRAWLER', 2), ('ADMIN', 2), ('ACE', 1))
+
+Champions: ('GALIO', 'JANNA', 'NILAH', 'RENEKTON', 'SEJUANI', 'SYNDRA', 'YASUO', 'YUUMI')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('MASCOT', 2), ('HEART', 2), ('DUELIST', 2), ('CIVILIAN', 2), ('BRAWLER', 2))
+
+Champions: ('APHELIOS', 'FIORA', 'GALIO', 'JANNA', 'NILAH', 'SIVIR', 'SYNDRA', 'YUUMI')
+Traits: (('STAR_GUARDIAN', 3), ('CIVILIAN', 3), ('SURESHOT', 2), ('OXFORCE', 2), ('MASCOT', 2), ('HEART', 2), ('DUELIST', 2))
+
+Champions: ('ASHE', 'BLITZCRANK', 'KAISA', 'LEBLANC', 'LUX', 'NILAH', 'SEJUANI', 'ZED')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SPELLSLINGER', 2), ('RECON', 2), ('HACKER', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
+Champions: ('APHELIOS', 'ASHE', 'EZREAL', 'FIORA', 'KAYLE', 'RENEKTON', 'SAMIRA', 'SEJUANI')
+Traits: (('UNDERGROUND', 3), ('LASERCORPS', 3), ('SURESHOT', 2), ('RECON', 2), ('OXFORCE', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ACE', 1))
+
+Champions: ('ALISTAR', 'LEONA', 'MISSFORTUNE', 'NASUS', 'SETT', 'SYLAS', 'TALON', 'WUKONG')
+Traits: (('RENEGADE', 3), ('MECHA', 3), ('ANIMA_SQUAD', 3), ('OXFORCE', 2), ('MASCOT', 2), ('DEFENDER', 2), ('AEGIS', 2), ('ACE', 1))
+
+Champions: ('ASHE', 'GALIO', 'MISSFORTUNE', 'NASUS', 'SENNA', 'SIVIR', 'VAYNE', 'YASUO')
+Traits: (('LASERCORPS', 3), ('ANIMA_SQUAD', 3), ('SURESHOT', 2), ('RECON', 2), ('MASCOT', 2), ('DUELIST', 2), ('CIVILIAN', 2), ('ACE', 1))
+
+Champions: ('ANNIE', 'FIORA', 'JANNA', 'LULU', 'LUX', 'NILAH', 'NUNU', 'YUUMI')
+Traits: (('STAR_GUARDIAN', 3), ('GADGETEEN', 3), ('SPELLSLINGER', 2), ('OXFORCE', 2), ('MASCOT', 2), ('HEART', 2), ('DUELIST', 2), ('CIVILIAN', 1))
+
+Champions: ('BLITZCRANK', 'GANGPLANK', 'LEESIN', 'MALPHITE', 'NILAH', 'SORAKA', 'SYNDRA', 'YUUMI')
+Traits: (('HEART', 4), ('SUPERS', 3), ('STAR_GUARDIAN', 3), ('MASCOT', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
+Champions: ('ASHE', 'GALIO', 'JANNA', 'KAISA', 'RENEKTON', 'SEJUANI', 'SYNDRA', 'YUUMI')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('RECON', 2), ('MASCOT', 2), ('HEART', 2), ('CIVILIAN', 2), ('BRAWLER', 2))
+
+Champions: ('ASHE', 'BLITZCRANK', 'KAISA', 'LEBLANC', 'NILAH', 'SEJUANI', 'TALIYAH', 'ZED')
+Traits: (('STAR_GUARDIAN', 3), ('LASERCORPS', 3), ('SPELLSLINGER', 2), ('RECON', 2), ('HACKER', 2), ('DUELIST', 2), ('BRAWLER', 2), ('ADMIN', 2))
+
