@@ -20,7 +20,7 @@ class TFTModel:
     def eval_solution(self, solution=None):
         if solution is None:
             solution = self.solution
-            
+
         count_each_traits = {}
         for id_champion in solution:
             champion = self.champions[id_champion]
@@ -36,6 +36,30 @@ class TFTModel:
             for stages in trait["stages"]:
                 if stages <= count:
                     objectif += 1
+        return objectif
+    
+    #Implémentation alternative en minimisation
+    #Minimiser le nombre de traits morts au lieu de maximiser les traits utilisés
+    #Certains champions ont 3 traits et sont priorisés par la première méthode (Alistar/Vi/Samira qui sont dans toutes les meilleurs solutions quasiment)
+    def eval_solution_minimize(self,solution=None):
+        if solution is None:
+            solution = self.solution
+
+        count_each_traits = {}
+        for id_champion in solution:
+            champion = self.champions[id_champion]
+            for trait in champion["traits"]:
+                count_each_traits[trait] = count_each_traits.get(trait, 0) + 1
+
+        # Cette fois Ace (10) doit bien être pris en compte pour le compte de traits morts
+        ace_canceled = count_each_traits.get(10, 0) if count_each_traits.get(10, 0) in(2, 3) else 0
+
+        objectif = ace_canceled
+        for id_trait, count in count_each_traits.items():
+            trait = self.traits[id_trait]
+            if trait["stages"][0] > count:
+                objectif += count
+        
         return objectif
 
     # BI c'est Best improvement : on teste toutes les possibilités et qu'on garde que la meilleure
@@ -82,6 +106,7 @@ class TFTModel:
             self.solution = best_sol
             #print("new best value", best_value)
 
+    
     def get_readable_solution(self):
         liste_champions_name = sorted(list(map(lambda x: self.champions[x]['name'],self.solution)))
 
