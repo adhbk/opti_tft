@@ -18,8 +18,7 @@
     {
     "name": "APHELIOS",
     "traits": [
-        22,
-        6
+        23
     ]
     },
     {
@@ -89,7 +88,7 @@
     {
     "name": "JANNA",
     "traits": [
-        2
+        23
     ]
     },
     {
@@ -175,8 +174,7 @@
     {
     "name": "MORDEKAISER",
     "traits": [
-        10,
-        4
+        23
     ]
     },
     {
@@ -196,8 +194,7 @@
     {
     "name": "NUNU",
     "traits": [
-        3,
-        17
+        23
     ]
     },
     {
@@ -290,8 +287,7 @@
     {
     "name": "SYNDRA",
     "traits": [
-        16,
-        7
+        23
     ]
     },
     {

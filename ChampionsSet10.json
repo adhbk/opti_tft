@@ -1,0 +1,428 @@
+[
+    {
+    "name": "AHRI",
+    "traits": [
+        8,
+        22
+    ]
+    },
+    {
+    "name": "AKALI-KDA",
+    "traits": [
+        8,
+        17
+    ]
+    },
+    {
+    "name": "AKALI-TRUEDAMAGE",
+    "traits": [
+        11,
+        17
+    ]
+    },
+    {
+    "name": "AMUMU",
+    "traits": [
+        4,
+        18
+    ]
+    },
+    {
+    "name": "ANNIE",
+    "traits": [
+        4,
+        22
+    ]
+    },
+    {
+    "name": "APHELIOS",
+    "traits": [
+        5,
+        20
+    ]
+    },
+    {
+    "name": "BARD",
+    "traits": [
+        7,
+        15
+    ]
+    },
+    {
+    "name": "BLITZCRANK",
+    "traits": [
+        2,
+        21
+    ]
+    },
+    {
+    "name": "CAITLYN",
+    "traits": [
+        0,
+        20
+    ]
+    },
+    {
+    "name": "CORKI",
+    "traits": [
+        0,
+        12
+    ]
+    },
+    {
+    "name": "EKKO",
+    "traits": [
+        11,
+        22,
+        21
+    ]
+    },
+    {
+    "name": "EVELYNN",
+    "traits": [
+        8,
+        14
+    ]
+    },
+    {
+    "name": "EZREAL",
+    "traits": [
+        5,
+        12
+    ]
+    },
+    {
+    "name": "GAREN",
+    "traits": [
+        0,
+        21
+    ]
+    },
+    {
+    "name": "GNAR",
+    "traits": [
+        9,
+        23,
+        19
+    ]
+    },
+    {
+    "name": "GRAGAS",
+    "traits": [
+        2,
+        22,
+        13
+    ]
+    },
+    {
+    "name": "ILLAOI",
+    "traits": [
+        13
+    ]
+    },
+    {
+    "name": "JAX",
+    "traits": [
+        3,
+        19
+    ]
+    },
+    {
+    "name": "JHIN",
+    "traits": [
+        12
+    ]
+    },
+    {
+    "name": "JINX",
+    "traits": [
+        10,
+        20
+    ]
+    },
+    {
+    "name": "KAISA",
+    "traits": [
+        8,
+        12
+    ]
+    },
+    {
+    "name": "KARTHUS",
+    "traits": [
+        9,
+        17
+    ]
+    },
+    {
+    "name": "KATARINA",
+    "traits": [
+        1,
+        14
+    ]
+    },
+    {
+    "name": "KAYLE",
+    "traits": [
+        9,
+        16
+    ]
+    },
+    {
+    "name": "KAYN",
+    "traits": [
+        5,
+        16
+    ]
+    },
+    {
+    "name": "KENNEN",
+    "traits": [
+        11,
+        23,
+        18
+    ]
+    },
+    {
+    "name": "KSANTE",
+    "traits": [
+        5,
+        21
+    ]
+    },
+    {
+    "name": "LILIA",
+    "traits": [
+        8,
+        23,
+        21
+    ]
+    },
+    {
+    "name": "LUCIAN",
+    "traits": [
+        7,
+        20
+    ]
+    },
+    {
+    "name": "LULU",
+    "traits": [
+        6,
+        22
+    ]
+    },
+    {
+    "name": "LUX",
+    "traits": [
+        3,
+        15
+    ]
+    },
+    {
+    "name": "MF",
+    "traits": [
+        7,
+        12
+    ]
+    },
+    {
+    "name": "MORDEKAISER",
+    "traits": [
+        9,
+        21
+    ]
+    },
+    {
+    "name": "NAMI",
+    "traits": [
+        2,
+        15
+    ]
+    },
+    {
+    "name": "NEEKO",
+    "traits": [
+        8,
+        23,
+        18
+    ]
+    },
+    {
+    "name": "OLAF",
+    "traits": [
+        9,
+        13
+    ]
+    },
+    {
+    "name": "PANTHEON",
+    "traits": [
+        10,
+        13
+    ]
+    },
+    {
+    "name": "POPPY",
+    "traits": [
+        4,
+        19
+    ]
+    },
+    {
+    "name": "QIYANA",
+    "traits": [
+        11,
+        14
+    ]
+    },
+    {
+    "name": "RIVEN",
+    "traits": [
+        0,
+        16
+    ]
+    },
+    {
+    "name": "SAMIRA",
+    "traits": [
+        1,
+        17
+    ]
+    },
+    {
+    "name": "SENNA",
+    "traits": [
+        11,
+        20
+    ]
+    },
+    {
+    "name": "SERAPHINE",
+    "traits": [
+        8,
+        22
+    ]
+    },
+    {
+    "name": "SETT",
+    "traits": [
+        5,
+        13,
+        19
+    ]
+    },
+    {
+    "name": "SONA",
+    "traits": [
+        22
+    ]
+    },
+    {
+    "name": "TAHM KENCH",
+    "traits": [
+        1,
+        13
+    ]
+    },
+    {
+    "name": "TARIC",
+    "traits": [
+        2,
+        18
+    ]
+    },
+    {
+    "name": "THRESH",
+    "traits": [
+        1,
+        18
+    ]
+    },
+    {
+    "name": "TF",
+    "traits": [
+        2,
+        15
+    ]
+    },
+    {
+    "name": "TWITCH",
+    "traits": [
+        10,
+        17
+    ]
+    },
+    {
+    "name": "URGOT",
+    "traits": [
+        1,
+        19
+    ]
+    },
+    {
+    "name": "VEX",
+    "traits": [
+        4,
+        17
+    ]
+    },
+    {
+    "name": "VI",
+    "traits": [
+        10,
+        19
+    ]
+    },
+    {
+    "name": "VIEGO",
+    "traits": [
+        9,
+        16
+    ]
+    },
+    {
+    "name": "YASUO",
+    "traits": [
+        11,
+        16
+    ]
+    },
+    {
+    "name": "YONE",
+    "traits": [
+        5,
+        16,
+        14
+    ]
+    },
+    {
+    "name": "YORICK",
+    "traits": [
+        9,
+        19,
+        18
+    ]
+    },
+    {
+    "name": "ZAC",
+    "traits": [
+        3,
+        13
+    ]
+    },
+    {
+    "name": "ZED",
+    "traits": [
+        3,
+        14
+    ]
+    },
+    {
+    "name": "ZIGGS",
+    "traits": [
+        6,
+        15
+    ]
+    }
+]

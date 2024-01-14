@@ -1,0 +1,250 @@
+[
+    {
+        "name": "8-BIT",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "COUNTRY",
+        "stages": [
+            3,
+            5,
+            7
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "DISCO",
+        "stages": [
+            3,
+            4,
+            5,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "EDM",
+        "stages": [
+            3,
+            4,
+            5
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "EMO",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "HEARTSTEEL",
+        "stages": [
+            3,
+            5,
+            7,
+            9
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "HYPERPOP",
+        "stages": [
+            1,
+            2,
+            4
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "JAZZ",
+        "stages": [
+            2,
+            3,
+            4
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "KDA",
+        "stages": [
+            3,
+            5,
+            7,
+            10
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "PENTAKILL",
+        "stages": [
+            3,
+            5,
+            7,
+            10
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "PUNK",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "TRUE DAMAGE",
+        "stages": [
+            2,
+            4,
+            6,
+            9
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "BIG SHOT",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "BRUISER",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "CROWD DIVER",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+            
+        ]
+    },
+    {
+        "name": "DAZZLER",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "EDGELORD",
+        "stages": [
+            3,
+            5,
+            7
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "EXECUTIONER",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "GUARDIAN",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "MOSHER",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "RAPIDFIRE",
+        "stages": [
+            2,
+            4,
+            6
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "SENTINEL",
+        "stages": [
+            2,
+            4,
+            6,
+            8
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "SPELLWEAVER",
+        "stages": [
+            3,
+            5,
+            7,
+            10
+        ],
+        "champions": [
+        ]
+    },
+    {
+        "name": "SUPERFAN",
+        "stages": [
+            3,
+            4,
+            5
+        ],
+        "champions": [
+        ]
+    }
+]
