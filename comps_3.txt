@@ -1,6 +1,0 @@
-Champions: ('MORDEKAISER', 'RENEKTON', 'SEJUANI')
-Traits: (('LASERCORPS', 3), ('BRAWLER', 2), ('ACE', 1))
-
-Champions: ('DRAVEN', 'SETT', 'WUKONG')
-Traits: (('MECHA', 3), ('DEFENDER', 2), ('ACE', 1))
-
