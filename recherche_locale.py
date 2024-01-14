@@ -1,18 +1,27 @@
 # importing the module
 import json
 import random
+import os
 
 
 class TFTModel:
-    def __init__(self, taille_composition=5):
-        with open('Traits.json') as traits_file, open('Champions.json') as champions_file:
+    
+    def __init__(self, taille_composition=5, currentset=10, bonus_trait=(0,0)):
+        with open(self.get_traits_file_name(currentset)) as traits_file, open(self.get_champions_file_name(currentset)) as champions_file:
             # Listes des traits et des champions
+            self.bonus_trait = bonus_trait
             self.traits = json.load(traits_file)
             self.champions = json.load(champions_file)
             self.id_champions = list(range(len(self.champions)))
             self.taille_composition = taille_composition
             self.solution = None
             self.init_solution()
+
+    def get_traits_file_name(self, currentset=10):
+        return f"TraitsSet{currentset}.json"
+    
+    def get_champions_file_name(self, currentset=10):
+        return f"ChampionsSet{currentset}.json"
 
     def init_solution(self):
         self.solution = random.sample(list(range(len(self.champions))), self.taille_composition)
@@ -26,9 +35,10 @@ class TFTModel:
             champion = self.champions[id_champion]
             for trait in champion["traits"]:
                 count_each_traits[trait] = count_each_traits.get(trait, 0) + 1
+
         # print(count_each_traits)
-        if count_each_traits.get(10, 0) in (2, 3):
-            count_each_traits.pop(10)
+        #if count_each_traits.get(10, 0) in (2, 3):
+        #    count_each_traits.pop(10)
 
         objectif = 0
         for id_trait, count in count_each_traits.items():
@@ -40,21 +50,21 @@ class TFTModel:
     
     #Implémentation alternative en minimisation
     #Minimiser le nombre de traits morts au lieu de maximiser les traits utilisés
-    #Certains champions ont 3 traits et sont priorisés par la première méthode (Alistar/Vi/Samira qui sont dans toutes les meilleurs solutions quasiment)
+    #Certains champions ont 3 traits et sont priorisés par la première méthode
     def eval_solution(self,solution=None):
         if solution is None:
             solution = self.solution
 
-        count_each_traits = {}
+        count_each_traits = {self.bonus_trait[0]:self.bonus_trait[1]} if self.bonus_trait[1] != 0 else {}
         for id_champion in solution:
             champion = self.champions[id_champion]
             for trait in champion["traits"]:
                 count_each_traits[trait] = count_each_traits.get(trait, 0) + 1
 
         # Cette fois Ace (10) doit bien être pris en compte pour le compte de traits morts
-        ace_canceled = count_each_traits.get(10, 0) if count_each_traits.get(10, 0) in(2, 3) else 0
+        #ace_canceled = count_each_traits.get(10, 0) if count_each_traits.get(10, 0) in(2, 3) else 0
 
-        objectif = ace_canceled
+        objectif = 0
         for id_trait, count in count_each_traits.items():
             trait = self.traits[id_trait]
             last_stage = 0
@@ -64,7 +74,9 @@ class TFTModel:
                     last_stage = 0
                     break
                 last_stage = stage
-            
+        
+       # print(objectif)
+
         
         return objectif
 
@@ -112,11 +124,13 @@ class TFTModel:
             self.solution = best_sol
             #print("new best value", best_value)
 
-    
+    def getBonusTrait(self):
+        return self.traits[self.bonus_trait[0]]['name']
+
     def get_readable_solution(self):
         liste_champions_name = sorted(list(map(lambda x: self.champions[x]['name'],self.solution)))
 
-        count_each_traits = {}
+        count_each_traits = {self.bonus_trait[0]:self.bonus_trait[1]} if self.bonus_trait[1] != 0 else {}
         for id_champion in self.solution:
             champion = self.champions[id_champion]
             for trait in champion["traits"]:
@@ -135,40 +149,36 @@ class TFTModel:
         print(f"Traits: {a[1]}")
         print(f"Value: {a[2]}")
 
-
-#model = TFTModel(8)
-#print("solution", model.solution)
-#print("value", model.eval_solution())
-#model.display_readable_solution()
-#
-#model.recherche_local()
-#print("solution", model.solution)
-#model.display_readable_solution()
-
 #Genère toutes les compos "parfaites" et les écrit dans un fichier
-for team_size in range(3,10):
-    model = TFTModel(team_size)
-    solutions = []
-    sample_size = 10000
-    for i in range(sample_size):
-        if i % (sample_size/10) == 0:
-            print(f"{(i/sample_size)*100}%")
-        model.init_solution()
-        model.recherche_local()
 
-        solutions.append(model.get_readable_solution())
+currentset=10
 
-    solutions = list(set(solutions))
-    solutions = sorted(solutions,key=lambda x: x[2])
+for team_size in [3,4,5,6,7,8,9,10]:
+    for bonus in range(0,24) :
+        model = TFTModel(team_size, currentset=10, bonus_trait=(bonus,1))
+        solutions = set()
+        sample_size = 10000
+        for i in range(sample_size):
+            if i % (sample_size/10) == 0:
+                print(f"{(i/sample_size)*100}%")
+            model.init_solution()
+            model.recherche_local()
 
-    i=0
-    with open(f'comps_{team_size}.txt','w') as compo_file:
-        while solutions[i][2] == (solutions[0][2]):
-            compo_file.write(f"Champions: {solutions[i][0]}\n")
-            compo_file.write(f"Traits: {solutions[i][1]}\n\n")
-            i += 1
-    
+            solutions.append(model.get_readable_solution())
 
-# actuellement c'est un peu naze mais on voit qu'en le lançnant en boucle des fois ça amrche mieux que d'autres
-# on tombe trop rapidement dans des extremums locaux, faut trouver un opératuer plus violent que le swap (ex swap2)
+        solutions = list(solutions)
+        solutions = sorted(solutions,key=lambda x: x[2])
 
+        path = f"{model.getBonusTrait()}"
+        # Check whether the specified path exists or not
+        if not os.path.exists(path):
+            # Create a new directory because it does not exist 
+            os.makedirs(path)
+
+        i=0
+        with open(f'{model.getBonusTrait()}/{team_size}.txt','w') as compo_file:
+            while solutions[i][2] == (solutions[0][2]):
+                compo_file.write(f"Champions: {solutions[i][0]}\n")
+                compo_file.write(f"Traits: {solutions[i][1]}\n")
+                compo_file.write(f"Score: {solutions[i][2]}\n\n")
+                i += 1
